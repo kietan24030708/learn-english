@@ -1,0 +1,3 @@
+Rendered review — 1440x900 desktop
+
+Chrome DevTools viewport emulation at 1440x900. Verified onboarding and the signed-in dashboard. The fixed sidebar, top status bar, active lesson panel, three lesson rows and lower weekly modules render without horizontal overflow or overlapping labels. The primary action and keyboard-labelled controls are exposed in the accessibility tree.

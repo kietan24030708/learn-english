@@ -1,0 +1,7 @@
+# Cambridge Path
+
+Cambridge Path is a local English-learning web application organised around CEFR levels A1 through C2 and Cambridge English exam practice.
+
+## Main surfaces
+
+- [Application home](/): personalised study plan, interactive lessons, vocabulary review, exam practice and progress analytics.

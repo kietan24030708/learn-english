@@ -1,0 +1,24 @@
+{
+  "contract": "../design-contract.md",
+  "targetViewports": ["390x844", "1440x900"],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Keyboard-focus styles, semantic buttons, labelled icon controls, dialog semantics, reduced-motion support and Chrome accessibility-tree structure were inspected; Lighthouse accessibility issues were resolved."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Chrome rendered inspection completed at both contract viewports; navigation, cards, typography, modal sizing and touch controls remained usable without horizontal overflow."
+  },
+  "contentStates": {
+    "loading": { "status": "not-applicable", "reason": "The local MVP has no asynchronous data request." },
+    "empty": { "status": "pass", "evidence": "Cleared localStorage and verified the clean onboarding state provides a useful demo and profile-creation path." },
+    "error": { "status": "not-applicable", "reason": "The local MVP has no remote operation that can fail." },
+    "partial": { "status": "pass", "evidence": "Dashboard renders current lesson at 68 percent and the daily target at zero of three with clear continuation actions." },
+    "success": { "status": "pass", "evidence": "Vitest exercises correct-answer feedback; completion UI provides XP toast and completed lesson state." },
+    "permission": { "status": "not-applicable", "reason": "The MVP requests no protected device or account permission." }
+  },
+  "renderedEvidence": [
+    { "viewport": "390x844", "artifact": "mobile-390x844.txt", "observation": "Mobile dashboard and lesson dialog inspected in Chrome touch emulation; bottom navigation and content fit are stable." },
+    { "viewport": "1440x900", "artifact": "desktop-1440x900.txt", "observation": "Desktop onboarding and dashboard inspected in Chrome; hierarchy, sidebar, learning queue and lower modules render cleanly." }
+  ]
+}
