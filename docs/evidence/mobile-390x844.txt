@@ -1,3 +1,5 @@
 Rendered review — 390x844 mobile
 
-Chrome DevTools mobile/touch emulation at 390x844. Verified the dashboard and interactive lesson modal. The desktop sidebar is replaced by the five-item bottom navigation; headings wrap cleanly; lesson rows retain their action controls; the answer modal fits the viewport and remains scrollable without horizontal overflow.
+Chrome DevTools mobile/touch emulation at 390x844. Verified the dashboard and interactive lesson modal. The desktop sidebar is replaced by the six-item bottom navigation; headings wrap cleanly; lesson rows retain their action controls; the answer modal fits the viewport and remains scrollable without horizontal overflow.
+
+Curriculum update: verified the A1–C2 level switcher, A1 lesson cards and six-item bottom navigation at 390x844. Horizontal level/filter controls remain touch-scrollable and lesson cards fit without horizontal overflow.
